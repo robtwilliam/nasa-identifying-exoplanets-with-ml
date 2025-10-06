@@ -34,17 +34,19 @@ Test F1 (macro): 0.789
 
 ## Project Structure
 
+```
 project_root/
 ├── model_api/
-│ ├── app.py (FastAPI web app)
-│ └── ...
-├── model_export/ (trained model + metadata)
-│ ├── exoplanet_model_tuned_all_<timestamp>.pkl
-│ └── exoplanet_model_tuned_all_<timestamp>.meta.json
-├── start_app.py (main launcher, cross-platform)
-├── ml_model_development.ipynb
+│   ├── app.py                  # FastAPI web app
+│   └── ...
+├── model_export/               # trained model + metadata
+│   ├── exoplanet_model_tuned_all_<timestamp>.pkl
+│   └── exoplanet_model_tuned_all_<timestamp>.meta.json
+├── start_app.py                # main launcher (cross-platform)
+├── ml_model_development.ipynb  # model training notebook
 ├── requirements.txt
 └── README.md
+```
 
 ## Setup Instructions
 
