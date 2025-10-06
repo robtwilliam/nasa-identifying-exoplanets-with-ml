@@ -118,6 +118,10 @@ Feature scaling and preprocessing are baked into the trained pipeline.
 
 The app supports both form-based and API-based usage.
 
+## AI Acknowledgement
+
+This code and project was developed with the assistance of Open AI's ChatGPT 5.
+
 ## License
 
 MIT License © 2025
