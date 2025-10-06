@@ -10,9 +10,9 @@ This project combines a tuned scikit-learn HistGradientBoostingClassifier model 
 The Exoplanet Classifier analyzes a set of planetary and stellar features (for example, orbital period, transit depth, stellar temperature) to classify the observation into one of three categories:
 
 ### Label Description
-0 – FALSE POSITIVE	The signal is likely not planetary (e.g., eclipsing binary, instrument noise).
-1 – CANDIDATE	The object shows a planet-like signal but lacks full confirmation.
-2 – CONFIRMED	The object is a validated exoplanet.
+0 – FALSE POSITIVE	The signal is likely not planetary (e.g., eclipsing binary, instrument noise).<br>
+1 – CANDIDATE	The object shows a planet-like signal but lacks full confirmation.<br>
+2 – CONFIRMED	The object is a validated exoplanet.<br>
 
 ### Model Summary:
 
