@@ -3,8 +3,7 @@ import os, subprocess, webbrowser
 print("Starting Exoplanet Classifier API...\n")
 print("\n🌐  Visit http://127.0.0.1:8000/form in your browser once application has loaded.")
 
-# venv_path = "venv" if os.path.isdir("venv") else ".venv" if os.path.isdir(".venv") else None
-venv_path = "../ml_env"
+venv_path = "venv" if os.path.isdir("venv") else ".venv" if os.path.isdir(".venv") else None
 model_dir = "model_api"
 
 if not os.path.isdir(model_dir):
