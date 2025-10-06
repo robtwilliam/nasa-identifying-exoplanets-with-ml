@@ -36,6 +36,9 @@ Test F1 (macro): 0.789
 
 ```
 project_root/
+├── data/
+│   ├── k2_10_5_2025.csv        # Model training data from https://exoplanetarchive.ipac.caltech.edu/
+│   └── ...
 ├── model_api/
 │   ├── app.py                  # FastAPI web app
 │   └── ...
