@@ -62,9 +62,11 @@ pip install -r requirements.txt
 
 Confirm your model files exist under:
 
+```
 model_export/
 ├── exoplanet_model_tuned_all_<timestamp>.pkl
 └── exoplanet_model_tuned_all_<timestamp>.meta.json
+```
 
 ### Launching the App
 
